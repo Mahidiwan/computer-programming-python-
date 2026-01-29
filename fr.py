@@ -1,0 +1,13 @@
+s=input("Enter a string")
+
+i=0
+print("Forward order:")
+while i<len(s):
+    print(s[i],end=" ")
+    i+=1
+
+i=len(s)-1
+print("\nReverse order:")
+while i>=0:
+    print(s[i],end=" ")
+    i-=1
